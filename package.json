@@ -1,0 +1,16 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "description": "Herramientas necesarias: \r - Descargar NodeJs -> https://nodejs.org/en\r - Descargar Docker -> https://www.docker.com/products/docker-desktop/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongo": "^0.1.0"
+  }
+}
