@@ -7,18 +7,17 @@ Herramientas necesarias:
   (En caso de que NO se Incluya en Docker Desktop de tu S.O.)
 - Descargar Docker.Compose -> [https://www.docker.com/products/docker-desktop/](https://docs.docker.com/compose/install/
 
-Pasos para Iniciar en este proyecto: 
 
-*Desde la Terminal o CLI*
-1) Clonar el repositorio mediante el siguiente comando.
-   
- git clone https://github.com/Diegoferpo/Api-NodeJs.git
+Pasos para Iniciar en este proyecto:
+
+Desde la Terminal o CLI
+
+Clonar el repositorio mediante el siguiente comando.
+git clone https://github.com/Diegoferpo/Api-NodeJs.git
 
 Crear un Archivo .env con lo siguiente:
 
-MONGO_URI=mongodb://host.docker.internal:27017/SoldOut
-REDIS_URL=redis://redis:6379
-PORT=8085
+MONGO_URI=mongodb://host.docker.internal:27017/SoldOut REDIS_URL=redis://redis:6379 PORT=8085
 
 __________________________________________________________________________
 BASE DE DATOS:
@@ -75,6 +74,7 @@ BASE DE DATOS:
 ])
 
 __________________________________________________________________________
+
 EJECUCIÓN DE LA API
 
 Para ejecutar la API junto con Redis y MongoDB en contenedores, ejecuta el siguiente comando:
@@ -82,6 +82,7 @@ Para ejecutar la API junto con Redis y MongoDB en contenedores, ejecuta el sigui
    docker-compose up --build
 
 __________________________________________________________________________
+
 USO DE SWAGGER Y TESTEO
 
 La API también incluye documentación y una interfaz para probar los endpoints utilizando Swagger. Para acceder a Swagger, abre el siguiente enlace en tu navegador:
@@ -91,3 +92,4 @@ La API también incluye documentación y una interfaz para probar los endpoints 
 __________________________________________________________________________
 Repositorio para evaluación de Sistemas Distribuidos.
 By Diego Fernando Portillo Bibiano
+
