@@ -20,7 +20,7 @@ MONGO_URI=mongodb://host.docker.internal:27017/SoldOut
 REDIS_URL=redis://redis:6379
 PORT=8085
 
-
+__________________________________________________________________________
 BASE DE DATOS:
 
 1. Si MongoDB ya está instalado en tu máquina local, asegúrate de que esté corriendo en el puerto predeterminado 27017. 
@@ -74,17 +74,20 @@ BASE DE DATOS:
   }
 ])
 
+__________________________________________________________________________
 EJECUCIÓN DE LA API
 
 Para ejecutar la API junto con Redis y MongoDB en contenedores, ejecuta el siguiente comando:
 
    docker-compose up --build
 
+__________________________________________________________________________
 USO DE SWAGGER Y TESTEO
 
 La API también incluye documentación y una interfaz para probar los endpoints utilizando Swagger. Para acceder a Swagger, abre el siguiente enlace en tu navegador:
 
    http://localhost:8085/api-docs
 
-
+__________________________________________________________________________
 Repositorio para evaluación de Sistemas Distribuidos.
+By Diego Fernando Portillo Bibiano
