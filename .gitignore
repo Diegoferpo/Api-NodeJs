@@ -129,9 +129,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Docker
-docker-compose.override.yml
-.docker/
-docker-compose*.yml
-Dockerfile
-Dockerfile.*
+
