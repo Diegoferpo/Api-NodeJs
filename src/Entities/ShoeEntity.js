@@ -1,14 +1,13 @@
 class ShoeEntity {
     constructor({ id, name, style, lastArrival, price, color }) {
-      this.id = id; // Identificador único
+      this.id = id;
       this.name = name;
       this.style = style;
       this.lastArrival = lastArrival;
       this.price = price;
       this.color = color;
     }
-  
-    // Ejemplo de métodos de dominio, si los necesitas
+    
     changePrice(newPrice) {
       this.price = newPrice;
     }
